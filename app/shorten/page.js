@@ -2,9 +2,9 @@
 import React from 'react'
 import { useState } from 'react';
 
-const page = () => {
-  const [url, setUrl] = useState('');
-  const [shortUrl, setShortUrl] = useState('');
+const Page = () => {
+  const [url, setUrl] = useState("");
+  const [shortUrl, setShortUrl] = useState("");
   const [generated, setgenerated] = useState("")
   const handlechange = (e) => {
     if (e.target.placeholder === 'Enter Your URL') {
@@ -84,5 +84,5 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
 

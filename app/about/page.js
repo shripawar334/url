@@ -32,7 +32,4 @@ return (
 }
 
 export default page
-export const metadata = {
-  title: "About Bitlinks - URL Shortener",
-  description: "Learn more about Bitlinks, your trusted URL shortener service.",
-};
+

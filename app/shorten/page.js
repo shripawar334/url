@@ -85,7 +85,4 @@ const page = () => {
 }
 
 export default page
-export const metadata = {
-  title: "Shorten URL - Bitlinks",
-  description: "Shorten your URLs easily with Bitlinks, your trusted URL shortener service.",
-};
+

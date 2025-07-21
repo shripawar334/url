@@ -16,9 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bitlinks - URL Shortener",
-  description: "A simple and efficient URL shortener service",
+  title: "BitLinks - URL Shortener",
+  description: "Shorten your URLs easily with BitLinks, the reliable URL shortener service.",
 };
+
 
 export default function RootLayout({ children }) {
   return (
